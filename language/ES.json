@@ -84,6 +84,7 @@
             "DYNO_USED": "```Cuota utilizada```",
             "PERCENTAGE": "```Porcentaje```",
             "DYNO_LEFT": "```Restante```",
+            "GR_DEL": "*Mensaje de saludo configurado!*\n*Utilice este comando para eliminar:* ```.goodbye delete & .welcome delete```",
             "SETVAR_DESC": "conjunto heroku config var",
             "SET_SUCCESS": "Establecido con éxito ```{} ➜ {}```",
             "KEY_VAL_MISSING": "```Falta la key o el value```",
@@ -94,7 +95,7 @@
             "NOT_FOUND": "```No se encontraron resultados para esta key```",
             "SUCC": "*Başarıyla Ayarlandı ✅* \n*Lütfen Biraz Bekleyin.*",
             "SUCC_AF": "*Usa texto* ```default``` *para restaurarlo.*",
-            "DEGİS_NONE": "```Ingrese cualquier nombre de módulo!``` \n\n*.degis afk*\n*.degis alive* _({pp}, {info}, {version}, {plugin})_\n*.degis ban*\n*.degis add*\n*.degis mute*\n*.degis unmute*\n*.degis promote*\n*.degis demote*\n*.degis kickme*\n*.degis block*\n*.degis unblock*",
+            "DEGİS_NONE": "```Ingrese cualquier nombre de módulo!``` \n\n*.degis afk*\n*.degis alive* << *Variables* >> \n_{pp}: Es suficiente usar una vez. Agrega tu foto de perfil al mensaje._ \n_{asenalogo}: Agrega el logotipo animado de WhatsAsena._ \n_{info}: Muestra tu estado._ \n_{version}: Muestra la versión del bot._ \n_{plugin}: Muestra el canal plugin._\n*.degis ban*\n*.degis add*\n*.degis mute*\n*.degis unmute*\n*.degis welcome* \n*.degis goodbye* \n*.degis promote*\n*.degis demote*\n*.degis kickme*\n*.degis block*\n*.degis unblock*",
             "WR": "*Utilice los módulos que correspondan!*",
             "DEGİS_DESC": "Reemplazar el texto de módulos como alive, afk."        
         },
@@ -281,8 +282,10 @@
             "MP4TOAUDİO_NEEDREPLY": "*Tienes que respond a un video!*",
             "MP4TOAUDİO": "```El video se convierte en sonido..```",
             "STİCKER_DESC": "Convierte sticker en foto",
+            "ANİM_STİCK": "Convierte sticker animadas en video.",
             "STİCKER_NEEDREPLY": "*Tienes que responder a un sticker!*",
             "STİCKER": "```El stciker convierte en foto..```",
+            "ANİMATE": "```El animadas sticker convierte a video..```",
             "XMEDİA_DESC": "Es un complemento con más de 25 herramientas multimedia.",
             "T_FALSE": "```❌ ¡Se ha introducido un efecto de Blend incorrecto!```\n```🔎 Comandos existentes:```\n\n*$dodge* - Aplica un filtro de color rosa al video.\n*$multiply* - Aplica un filtro de color verde al video.\n*$grainmerge* - Aumenta el contraste del video.\n*$and* - Aplica efecto de rayo negro según la velocidad del video.\n*$or* - Aplica un efecto de rayo blanco según la velocidad del video.\n*$burn* - Aplica contraste verde al video.\n*$difference* - Muestra las diferencias aplicando relieve verde al video.\n*$grainextract* - Muestra las diferencias aplicando un relieve gris al video.\n*$divide* - Demuestra las diferencias aplicando un relieve rosa al video.\n*$xor* - Aplica tanto relieve verde como efecto relámpago al vídeo.\n*$hardmix* - Mezcla los colores del video en un tono amarillo y rojo.\n*$negation* - Convierte la dinámica del video en rosa.",
             "T_NOT": "```💭 ¡Necesita ingresar cualquier efecto de Blend!\n```🔎 Comandos existentes:```\n\n*$dodge* - Aplica un filtro de color rosa al video.\n*$multiply* - Aplica un filtro de color verde al video.\n*$grainmerge* - Aumenta los valores de contraste del video.\n*$and* - Aplica efecto de rayo negro según la velocidad del video.\n*$or* - Aplica un efecto de rayo blanco según la velocidad del video.\n*$burn* - Aplica contraste verde al video.\n*$difference* - Muestra las diferencias aplicando relieve verde al video.\n*$grainextract* - Muestra las diferencias aplicando un relieve gris al video.\n*$divide* - Demuestra las diferencias aplicando un relieve rosa al video.\n*$xor* - Aplica tanto relieve verde como efecto relámpago al vídeo.\n*$hardmix* - Mezcla los colores del video en un tono amarillo y rojo.\n*$negation* - Convierte la dinámica del video en rosa.",
@@ -397,7 +400,7 @@
             "CARBON_WARN": "Escriba solo en los idiomas TR y EN!"
         },
         "scam": {
-            "SCAM_DESC": "Crea 5 minutos de acciones falsas.",
+            "SCAM_DESC": "Crea acciones falsas.",
             "SCAM_NOTFOUND": "*¡Debe ingresar una acción falsa*\nEtipos Existentes: ```typing & recording & online & stop```",
             "SCAM_NULL": "```Acción incorrecta ingresada! Utilice los tipos existentes.```"
         },
